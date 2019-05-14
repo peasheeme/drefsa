@@ -1,0 +1,592 @@
+
+body {
+
+    font-family: 'Lato', sans-serif;
+    overflow-x: hidden;
+
+}
+html{
+    overflow-x: hidden;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1 {
+    color: white;
+    padding: 230px 0 30px;
+    font-weight: 800;
+    font-size: 50px;
+    
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+a:hover {
+   text-decoration: none;
+   -webkit-transition-duration: 0.4s; /* Safari */
+   transition-duration: 0.4s;
+   cursor: pointer;
+  
+}
+
+#nav {
+    background-color: rgb(166, 6, 14);
+    color: #333333;
+    z-index: 2; 
+    height: 73px;
+}
+
+li.nav-item , a.nav-link, .navbar-brand {
+    color: #333333;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif; 
+}
+.navbar-brand:hover {
+    color: #333333;
+}
+ a.nav-link:hover {
+     color: #F2CA30;   
+}
+
+li {
+    list-style: none;
+}
+.mostrar {
+ display: none;
+}
+.img-logo {
+    width:110px;
+}
+.yellow-top {
+    background-color: #F2CA30;
+}
+/* servicios*/
+.servicios {
+    padding: 30px 0 50px 0;
+}
+.titulo-servicios {
+    
+  text-align: center;
+    color: #333333;
+    padding: 70px 0 0 0;
+}
+.subtitulo-servicios {
+    text-align: center;
+}
+/*---------------- botones ----------------*/
+a.color:hover {
+    color:#F2CA30;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+a.color {
+    color:white;
+}
+.btn-enviar-cotizar {
+    color: black;
+    font-weight: 700;
+    background: #F2CA30;
+   padding: 10px 70px;
+   width: 100%;
+   border: 2px solid #F2CA30;
+   -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.btn-1 {
+    font-weight: 400;
+    margin: 56px 0 50px 16px;
+    width: 185px;
+    height: 50px;
+    background: #F2CA30;
+    border: 2px solid#F2CA30;
+    color: black;
+    font-weight: 700;
+    font-size: 15px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.btn-1:hover, .btn-3:hover , .btn-enviar-cotizar:hover {
+    background: #ffd900;
+    border: 2px solid#ffd900;
+    color: black;
+    font-weight: 700;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.btn-enviar {
+    background: #ffd900;
+    width: 100%;
+    height: 40px;
+    border: #ffd900;
+    color: black;
+    font-weight: 700;
+    font-size: 15px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.btn-enviar:hover {
+    background: #ffd900;
+    border: #ffd900;
+    color: black;
+    font-weight: 700;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.btn-3 {
+    font-weight: 600;
+    margin: 40px 0 0 0;
+    width: 181px;
+    height: 50px;
+    background: white;
+    border: 2px solid white;
+    color: #F2CA30;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+   
+}
+.btn-3:hover {
+    background: #ffd900;
+    border: 2px solid white;;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.white {
+    color:white;
+}
+/*---------------- intro -----------------*/
+#intro {
+    z-index: 1;
+    background: linear-gradient( to bottom,
+        rgba(0,0,0, 0.1), 
+        rgba(0,0,0, .3)
+      ), url("../images/banner7.jpg") no-repeat ;
+      background-size: cover;   
+}
+
+h2.logo {
+    font-weight: 800;
+}
+h3.subt {
+    color: white;
+}
+h2.text-center {
+    text-align: center!important;
+    font-weight: 700;
+}
+
+.contacto {
+    background:rgba(33, 37, 41, .6) !important; 
+    margin: 100px 30px ;
+    padding: 64px 30px 10px 30px;
+}
+
+h2.cont {
+    font-weight: 600;
+    font-size: 36px;
+    color: white;
+    
+}
+.technofum-form {
+    display: block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: 1B3A7F;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+/* -------------Envios-----------------*/
+
+.envios {
+  background: #203F7D;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+    color: white;
+    padding: 40px 0 50px 0;
+    
+
+}
+.mostrar-1 {
+    display: none !important;
+}
+.envios-mapa {
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+  
+
+}
+
+.envios2-title {
+    font-size: 36px;
+    font-weight: 600;
+    color: white;
+    padding: 15px 0 5px 0;
+}
+
+h1.envios {
+    margin-bottom: -20px;
+    margin-top:-25px;
+}
+
+.mostrar-imagen-servicios {
+    display: none;
+}
+.services-padding {
+    padding: 20px 10px 30px 10px;
+}
+h5.banner-sup {
+    padding: 0px 0 20px 0;
+    color: white;
+}
+.white.strong {
+    padding: 20px 0 0 0;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+}
+.green {
+    background: #F2CA30;
+    color: white;
+    padding-bottom: 70px;
+    justify-content: center;
+    text-align: center;
+}
+p.text {
+    font-size: 14px;
+}
+.transporte-service {
+    font-weight: 600;
+}
+.transporte-service img {
+    margin-right: 13px;
+    margin-top: -31px;
+}
+.text-inicio {
+    padding: 165px 30px 0 30px ;
+}
+.img-desc {
+    padding: 10px 0 0 0;
+}
+.gray {
+    background:  #EDEDED;
+    text-align: center;
+}
+.img-world {
+    padding: 60px 0 10px 0;
+    text-align: center;
+    justify-content: center;
+}
+.padding-top-cobertura{
+  padding: 30px 0 10px 0;  
+}
+
+.ventajas {
+    padding: 30px 0 70px;
+}
+.ventajas-m{
+    padding: 70px 0 50px 0;
+    
+}
+.form-control:hover , .form-control:focus {
+    border: 3px solid #F2CA30 !important;
+    outline-style: none;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+textarea.form-control {
+    height: 100px; 
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+/* -------------faq-----------------*/
+
+footer {
+    background:#203F7D;
+  background-position: bottom;
+    padding: 30px 0 10px 0;
+    color: white;
+}
+
+a.link.contacto-footer {
+    padding-left: 50px;
+}
+
+.footer-text {
+    font-size: 12px;
+}
+
+.fa-phone , .fa-envelope, .fa-whatsapp{
+    font-size: 16px;
+    padding: 0 10px 0 0;
+}
+.fa-facebook-f  {
+    font-size: 15px;
+    padding: 0 5px 0 5px;
+}
+.link {
+    color: white;
+}
+
+.link:hover {
+    color: #F2CA30;
+    
+}
+@media screen and (max-width:1400px){
+    h2.cont {
+        font-weight: 600;
+        font-size: 30px;
+    }
+    
+   
+    
+}
+@media screen and (max-width:1200px){
+   
+    h1 {
+        color: white;
+        padding: 150px 0 30px;
+        font-weight: 800;
+        font-size: 35px;
+    }
+    h3.subt {
+        color: white;
+        font-size: 25px;
+    }
+    .contacto {
+        background: rgba(33, 37, 41, .6) !important;
+        margin: 50px 0px 50px 0px;
+        padding: 30px 30px 10px 30px;
+    }
+    .text-inicio {
+        padding: 80px 30px 0 30px;
+    }
+    
+}
+
+@media screen and (max-width:992px){ 
+    .contacto {
+        
+        
+        padding: 10px;
+    margin: 10px 0;
+    }
+    h2.cont {
+        font-weight: 600;
+        font-size: 27px;
+        margin-top: 11px;
+    }
+    .ocultar-texto-header {
+      display: none;  
+    }
+   .btn-1 {
+    margin: 10px 10px;
+    width: 160px;
+   }
+   .envios2-title {
+    font-size: 28px;
+    
+}
+.text-inicio {
+    padding: 20px 30px 0 30px;
+}
+
+}
+@media screen and (max-width:767px){ 
+   .oculto-1 {
+       display: none;
+   }
+   .mostrar-1  {
+       display: flex!important;
+   }
+   .img-desc {
+    padding: 0px 0 0 0;
+}
+.contacto {
+    padding: 40px;
+    margin: 50px;
+}
+   
+}
+@media screen and (max-width:550px){ 
+    .xzoom-gallery, .xzoom-gallery2, .xzoom-gallery3, .xzoom-gallery4, .xzoom-gallery5 {
+        border: 1px solid #cecece;
+        margin-left: 5px;
+        margin-bottom: 10px;
+        height: auto;
+        width: 80px;
+    }
+    .contacto {
+        padding: 25px;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width:450px){ 
+    .img-logo {
+        margin: -17px 0 0 0;
+        width: 60px;
+    }
+    .ventajas {
+        padding: 0;
+    }
+    .p-50 {
+        padding: 15px 15px !important;
+    }
+    .contacto {
+        padding: 15px;
+        margin: 0;
+    }
+    .footer-text {
+        text-align: center;
+    }
+
+    .ventajas-margen {
+        padding: 50px 0;
+        text-align: center;
+    }
+    .margen-ventajas-mov {
+        padding: 10px;
+    }
+    .services-padding {
+        padding: 0px 10px 20px 10px;
+        text-align: center;
+    }
+
+    .nav-link {
+        display: block;
+        padding: .5rem .2rem;
+    }
+    h1 {
+        color: white;
+        padding: 150px 0 4px;
+        font-weight: 800;
+        font-size: 32px;
+        text-align: center;
+    }
+
+    h3.subt {
+        color: white;
+        font-size: 18px;
+        text-align: center;
+    }
+
+   
+    .buttonintro {
+        display: block;
+        text-align: center;
+    }
+    .contacto {
+         
+         text-align: center;
+    }
+    .oculto {
+        display: none;
+    }
+    .ocultar-footer-web {
+        display: none;
+    }
+    a.ocultar-3e {
+        display: none;
+    }
+       
+    .mostrar-imagen-servicios {
+        display: inline-block;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    p.peque {
+        font-size: 12px;
+    }
+    .centrar {
+        justify-content: center;
+    }
+
+
+    h3.faq {
+        padding: 0 0 29px 32px;
+    }
+    .mostrar {
+        display: inline-block;
+        text-align: left;
+    }
+    .mostrar-icons {
+        display: inline-block;
+        text-align: left;
+    }
+    h6.ocultar{
+        display: none;
+    }
+  
+    .margen-movil {
+        margin: 10px 10px -35px 0;
+        color: white;
+    }
+
+
+    footer {
+       
+        padding: 40px 0 0 0;
+       
+        }  
+  
+}
+.services {
+    padding: 50px 0 70px;
+}
+
+.gracias {
+    padding-top: 70px ;
+}
+.btn-regresar2{
+    padding: 15px 65px;
+    color: white;
+    background: #203F7D;
+    margin: 20px 0;
+}
+.btn-regresar2:hover {
+    color: white;
+    background: #AA1826;
+}
+.p-50 {
+    padding: 50px 15px;
+}
+
+.ventajas-margen {
+    padding: 30px 0 0 0;
+    text-align: center;
+}
+
+.video {
+    padding: 100px 0 50px 0 ;
+}
+.descuento {
+    padding-bottom: 70px;
+}
+.p-30 {
+    padding: 0px 15px 20px; 
+}
+.clientes {
+    background: #fafafa;
+    padding: 70px 0 ;
+}
+.mb-30 {
+    padding-bottom: 50px;
+}
